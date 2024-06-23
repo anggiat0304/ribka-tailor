@@ -8,8 +8,8 @@ const Footer : FC = (): ReactElement=>{
                         <div className="col-md-6">
                             <h3>Kontak</h3>
                             <ul>
-                                <li style={{textDecoration:"none",listStyle:"none"}}><img src="./whatsapp.png" style={{width:"30px"}}/> 082272310957</li>
-                                <li style={{textDecoration:"none",listStyle:"none"}}><img src="./instagram.png" style={{width:"30px"}}/> <a href="https://www.instagram.com/ribka.pangaribuan.96/" style={{textDecoration:"none",color:"black"}}>ribka.pangaribuan.96</a></li>
+                                <li style={{textDecoration:"none",listStyle:"none"}}><img src={process.env.PUBLIC_URL + '/whatsapp.png'}  style={{width:"30px"}}/> 082272310957</li>
+                                <li style={{textDecoration:"none",listStyle:"none"}}><img src={process.env.PUBLIC_URL + '/instagram.png'} style={{width:"30px"}}/> <a href="https://www.instagram.com/ribka.pangaribuan.96/" style={{textDecoration:"none",color:"black"}}>ribka.pangaribuan.96</a></li>
                             </ul>
                             <h3>Alamat</h3>
                             <ul>

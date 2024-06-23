@@ -7,7 +7,7 @@ const Content: FC = (): ReactElement => {
                 <h1>Tentang</h1>
                 <div className="row">
                     <div className="col-md-6" style={{ padding: "10px" }}>
-                        <img src="./ribkaTailor.png" alt="image"
+                        <img src={process.env.PUBLIC_URL + '/ribkaTailor.png'} alt="image"
                             style={{ width: "400px", height: "400px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)", mixBlendMode: "normal" }}
                         />
                     </div>
@@ -49,28 +49,28 @@ const Content: FC = (): ReactElement => {
                     <h1>Galeri</h1>
                     <div className="row" style={{ marginBottom: "10px" }}>
                         <div className="col-md-3">
-                            <img src="./kebaya1.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya1.jpeg'} style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya2.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya2.jpeg'}style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya3.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya3.jpeg'} style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya4.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya4.jpeg'} style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya5.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya5.jpeg'}style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya6.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya6.jpeg'} style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya1.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya1.jpeg'} style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                         <div className="col-md-3">
-                            <img src="./kebaya2.jpeg" style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
+                            <img src={process.env.PUBLIC_URL + '/kebaya2.jpeg'} style={{ width: "300px", height: "300px", boxShadow: "0px 0px 10px 0px rgba(0, 0, 0, 0.5)" }} />
                         </div>
                     </div>
                 </div>
