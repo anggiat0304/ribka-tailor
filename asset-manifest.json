@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ribka-tailor/static/css/main.dc618f38.css",
-    "main.js": "/ribka-tailor/static/js/main.3df24f33.js",
+    "main.css": "/ribka-tailor/static/css/main.339dfc76.css",
+    "main.js": "/ribka-tailor/static/js/main.1018fff5.js",
     "static/js/453.977729c1.chunk.js": "/ribka-tailor/static/js/453.977729c1.chunk.js",
     "index.html": "/ribka-tailor/index.html",
-    "main.dc618f38.css.map": "/ribka-tailor/static/css/main.dc618f38.css.map",
-    "main.3df24f33.js.map": "/ribka-tailor/static/js/main.3df24f33.js.map",
+    "main.339dfc76.css.map": "/ribka-tailor/static/css/main.339dfc76.css.map",
+    "main.1018fff5.js.map": "/ribka-tailor/static/js/main.1018fff5.js.map",
     "453.977729c1.chunk.js.map": "/ribka-tailor/static/js/453.977729c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc618f38.css",
-    "static/js/main.3df24f33.js"
+    "static/css/main.339dfc76.css",
+    "static/js/main.1018fff5.js"
   ]
 }
