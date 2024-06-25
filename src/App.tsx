@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 // Ensure Bootstrap and jQuery are imported
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import $ from 'jquery';
 import Content from './components/Content';
 function App() {
