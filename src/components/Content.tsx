@@ -158,8 +158,8 @@ const Content: FC = (): ReactElement => {
                     )}
                 </div>
             </div>
-            {/* Form section */}
-            <div style={{ marginTop: "20px" }}>
+
+            {/* <div style={{ marginTop: "20px" }}>
                 <h2>Form Item</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group">
@@ -188,10 +188,9 @@ const Content: FC = (): ReactElement => {
                             Cancel
                         </button>
                     )}
-                </form>
+                </form> */}
 
-                {/* List of Items */}
-                <div style={{ marginTop: "20px" }}>
+                {/* <div style={{ marginTop: "20px" }}>
                     <h2>Item List</h2>
                     <ul className="list-group">
                         {items.map(item => (
@@ -209,7 +208,7 @@ const Content: FC = (): ReactElement => {
                         ))}
                     </ul>
                 </div>
-            </div>
+            </div> */}
       
 
         </div >
